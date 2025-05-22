@@ -175,6 +175,7 @@
     <mavenPluginToolsVersion>3.5.2</mavenPluginToolsVersion>
     <mavenVersion>3.5.0</mavenVersion>
     <njord.autoPublish>true</njord.autoPublish>
+    <njord.version>0.5.5</njord.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <surefire.timeout>3600</surefire.timeout>
   </properties>
@@ -186,6 +187,11 @@
           <groupId>com.diffplug.spotless</groupId>
           <artifactId>spotless-maven-plugin</artifactId>
           <version>${maven.spotless.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>eu.maveniverse.maven.plugins</groupId>
+          <artifactId>njord</artifactId>
+          <version>${njord.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -426,7 +432,7 @@
       <extension>
         <groupId>eu.maveniverse.maven.njord</groupId>
         <artifactId>extension</artifactId>
-        <version>0.5.3</version>
+        <version>${njord.version}</version>
       </extension>
     </extensions>
   </build>
