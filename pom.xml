@@ -175,7 +175,7 @@
     <mavenPluginToolsVersion>3.5.2</mavenPluginToolsVersion>
     <mavenVersion>3.5.0</mavenVersion>
     <njord.autoPublish>true</njord.autoPublish>
-    <njord.version>0.7.5</njord.version>
+    <njord.version>0.8.0</njord.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <surefire.timeout>3600</surefire.timeout>
   </properties>
@@ -190,7 +190,7 @@
         </plugin>
         <plugin>
           <groupId>eu.maveniverse.maven.plugins</groupId>
-          <artifactId>njord</artifactId>
+          <artifactId>njord3</artifactId>
           <version>${njord.version}</version>
         </plugin>
         <plugin>
@@ -431,7 +431,7 @@
     <extensions>
       <extension>
         <groupId>eu.maveniverse.maven.njord</groupId>
-        <artifactId>extension</artifactId>
+        <artifactId>extension3</artifactId>
         <version>${njord.version}</version>
       </extension>
     </extensions>
