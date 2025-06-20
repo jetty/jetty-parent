@@ -190,7 +190,7 @@
         </plugin>
         <plugin>
           <groupId>eu.maveniverse.maven.plugins</groupId>
-          <artifactId>njord3</artifactId>
+          <artifactId>njord</artifactId>
           <version>${njord.version}</version>
         </plugin>
         <plugin>
