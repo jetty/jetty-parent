@@ -175,7 +175,7 @@
     <mavenPluginToolsVersion>3.5.2</mavenPluginToolsVersion>
     <mavenVersion>3.5.0</mavenVersion>
     <njord.autoPublish>true</njord.autoPublish>
-    <njord.version>0.8.1</njord.version>
+    <njord.version>0.8.2</njord.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <surefire.timeout>3600</surefire.timeout>
   </properties>
