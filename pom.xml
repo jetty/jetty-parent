@@ -375,6 +375,9 @@
               <includes>
                 <include>**/*.java</include>
               </includes>
+              <excludes>
+                <exclude>**/target/**</exclude>
+              </excludes>
             </licenseSet>
           </licenseSets>
           <failIfMissing>true</failIfMissing>
